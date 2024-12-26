@@ -1,6 +1,6 @@
+package lessons_1;
 
-public class Main{
-    private static final double CONV_K = 2.20462;
+public class lessons1 {private static final double CONV_K = 2.20462;
 
     public static void main (String [] args){
         System.out.println("App for measure converting");
