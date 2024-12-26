@@ -1,10 +1,10 @@
-package lessons_2;
+package  main.lessons_2;
 
 public class Main {private static final double CONV_M = 1.60934;
 
     public static void main (String [] args){
         System.out.println("Version 2.0");
-        double Miles = 1;
+        double Miles = 2;
         double Kils = 10;
         double kilos = convKgsToPounds(Miles);
         double miles = convPoundsToKgs(Kils);
