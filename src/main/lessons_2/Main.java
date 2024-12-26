@@ -1,4 +1,4 @@
-package lessons_2;
+package  main.lessons_2;
 
 public class Main {private static final double CONV_M = 1.60934;
 
