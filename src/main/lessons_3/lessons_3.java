@@ -9,6 +9,7 @@ public class lessons_3 {private static final double Con_F = 5.0/9.0;
         double Celseresult = convCtoF(F);
         double Fahrenheitresult = convFtoC(C);
         System.out.println("Result is "+ Celseresult + " degrees Celsius and " + Fahrenheitresult +" degrees fahrenheit.");
+        System.out.println("Change Facrot brinch");
     }
     private static double convCtoF (double Celse) {
         return (Celse-32)* Con_F;
@@ -16,4 +17,5 @@ public class lessons_3 {private static final double Con_F = 5.0/9.0;
     private static  double convFtoC (double Fahrenheit) {
         return (Fahrenheit/Con_F)+32;
     }
+
 }
