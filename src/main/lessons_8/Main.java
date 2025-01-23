@@ -1,6 +1,9 @@
 package main.lessons_8;
+
 import java.util.Scanner;
+
 public class Main {
+
     static double balance;
 
     public static void main(String[] args) {
