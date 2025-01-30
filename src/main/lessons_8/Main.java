@@ -17,6 +17,7 @@ public class Main {
                 "Enter purchase amount, USD: ", balance);
         Scanner scanner = new Scanner(System.in);
         return scanner.nextDouble();
+
     }
 
     // Метод валідації наявних коштів
