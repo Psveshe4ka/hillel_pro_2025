@@ -1,4 +1,4 @@
-package main.lessons_11;
+package  main.lessons_11;
 
 import java.nio.file.Paths;
 
@@ -13,7 +13,7 @@ public class Main {
         String path = BASE_PATH + newFileName + ".txt";
         // Виклики методів маніпуляції з файлом
         getOutput(handler.createFile(path));
-        getOutput(handler.writeToFile(Paths.get(path), content));
+        getOutput(handler.writeToFile(String.valueOf(Paths.get(path)), content));
         getOutput("CONTENT: " + handler.readFromFile(path));
     }
 
@@ -22,3 +22,6 @@ public class Main {
     }
 }
 
+
+
+    
