@@ -10,16 +10,16 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <!-- Свойства -->
+
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <!-- Зависимости -->
+
   <dependencies>
-    <!-- Для тестов добавим JUnit -->
+
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -36,10 +36,15 @@
       <artifactId>hibernate-core</artifactId>
       <version>6.4.0.Final</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
-  <!-- Настройки сборки -->
+
   <build>
     <!-- Укажем, что исходные файлы лежат в src/main -->
     <sourceDirectory>${project.basedir}/src/main</sourceDirectory>
